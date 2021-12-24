@@ -1,4 +1,4 @@
-let slider1 = {
+let slider2 = {
     imagesUrls: [],
     currentImageIndex: 0,
     showPrevBtn: document.getElementById('show-prev'),
@@ -7,7 +7,7 @@ let slider1 = {
 
     start: function () {
         let that = this;
-        ///
+        /////
         //subscribe to events
         this.showPrevBtn.addEventListener('click', function (e){
             that.onShowPrevBtnClick(e);
