@@ -7,6 +7,7 @@ let slider1 = {
 
     start: function () {
         let that = this;
+        //
         //subscribe to events
         this.showPrevBtn.addEventListener('click', function (e){
             that.onShowPrevBtnClick(e);
